@@ -89,15 +89,15 @@ docker run --rm -v .:/app ghcr.io/phpstan/phpstan:1-php8.3
 ## How to run phpstan
 
 # 2. Goals
-We want to build a service which will take a request.json and:
-✅ Process the file and create two separate collections for Fruits and Vegetables
-✅ Each collection has methods like add(), remove(), list();
-✅ Units have to be stored as grams;
-✅ Store the collections in a storage engine of your choice. (e.g. Database, In-memory)
-✅ Provide an API endpoint to query the collections.
-⏳ As a bonus, this endpoint can accept filters to be applied to the returning collection.
-✅ Provide another API endpoint to add new items to the collections (i.e., your storage engine).
-As a bonus you might:
-⏳ consider giving option to decide which units are returned (kilograms/grams);
-⏳ how to implement search() method collections;
-✅ use latest version of Symfony's to embbed your logic
+- We want to build a service which will take a request.json and:
+- ✅ Process the file and create two separate collections for Fruits and Vegetables
+- ✅ Each collection has methods like add(), remove(), list();
+- ✅ Units have to be stored as grams;
+- ✅ Store the collections in a storage engine of your choice. (e.g. Database, In-memory)
+- ✅ Provide an API endpoint to query the collections.
+- ⏳ As a bonus, this endpoint can accept filters to be applied to the returning collection.
+- ✅ Provide another API endpoint to add new items to the collections (i.e., your storage engine).
+- As a bonus you might:
+- ⏳ consider giving option to decide which units are returned (kilograms/grams);
+- ⏳ how to implement search() method collections;
+- ✅ use latest version of Symfony's to embbed your logic
